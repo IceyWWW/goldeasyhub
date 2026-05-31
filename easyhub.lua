@@ -577,6 +577,32 @@ do
 		end
 	})
 
+	Tabs.Universals:AddButton({
+		Title = "Colbalt",
+		Description = "Cobalt A runtime developer tool",
+		Callback = function()
+			Window:Dialog({
+				Title = "Execution",
+				Content = "Would you like to inject Cobalt?",
+				Buttons = {
+					{
+						Title = "Confirm",
+						Callback = function()
+                            loadstring(game:HttpGet("https://github.com/notpoiu/cobalt/releases/latest/download/Cobalt.luau"))()
+						end
+					},
+					{
+						Title = "Cancel",
+						Callback = function() 
+
+						end
+					}
+				}
+			})
+		end
+	})
+	
+
 	-- voice chat tab
 
 	Tabs.VC:AddButton({
