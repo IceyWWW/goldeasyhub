@@ -12,7 +12,7 @@ local clientConfig = {
 
 local Window = Fluent:CreateWindow({
 	Title = "Gold's Easy Hub v3 " --[[.. Fluent.Version]],
-	SubTitle = "by vorankommen",
+	SubTitle = "by vorankommen And IceyWWW",
 	TabWidth = 160,
 	Size = UDim2.fromOffset(580, 460),
 	Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
@@ -463,7 +463,7 @@ do
 					{
 						Title = "Confirm",
 						Callback = function()
-							loadstring(game:HttpGet("https://raw.githubusercontent.com/Infinite-Store/Infinite-Store/main/main.lua)()", true))()
+							loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 						end
 					},
 					{
