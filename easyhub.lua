@@ -478,31 +478,6 @@ do
 	})
 
 	Tabs.Universals:AddButton({
-		Title = "System Broken",
-		Description = "Execute System Broken",
-		Callback = function()
-			Window:Dialog({
-				Title = "Execution",
-				Content = "Would you like to inject system broken?",
-				Buttons = {
-					{
-						Title = "Confirm",
-						Callback = function()
-							loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
-						end
-					},
-					{
-						Title = "Cancel",
-						Callback = function() 
-
-						end
-					}
-				}
-			})
-		end
-	})
-
-	Tabs.Universals:AddButton({
 		Title = "Face Fuck",
 		Description = "Execute Face Fuck (Z)",
 		Callback = function()
